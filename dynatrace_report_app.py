@@ -28,7 +28,7 @@ def capture_screenshot(
         context_args = {
             "viewport": {"width": viewport_width, "height": viewport_height},
             "device_scale_factor": device_scale_factor,
-            "timezone_id": "UTC",
+            "timezone_id": "Europe/London",
         }
 
         if user_agent:
